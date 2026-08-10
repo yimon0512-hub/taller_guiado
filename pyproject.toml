@@ -1,0 +1,19 @@
+[project]
+name = "taller-guiado"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "yimon0512-hub", email = "yimon0512@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "yfinance>=1.5.2",
+]
+
+[project.scripts]
+taller-guiado = "taller_guiado:main"
+
+[build-system]
+requires = ["uv_build>=0.12.3,<0.13.0"]
+build-backend = "uv_build"
